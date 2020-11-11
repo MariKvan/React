@@ -1,0 +1,145 @@
+@font-face {
+  font-family: 'montL';
+  src: local('Mont-Light'), url(./assets/fonts/Mont-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'montH';
+  src: local('Mont-Heavy'), url(./assets/fonts/Mont-Heavy.ttf) format('truetype');
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color:#232224;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  font-size: large;
+}
+
+nav ul {
+  display: flex;
+  list-style-type:none;
+}
+
+li a {
+  text-decoration: none;   
+  padding-left: 50px;
+  color:#F4F4F4;
+  font-family:'merri-light';
+}
+
+li a:hover{
+  color:#c3c3c3;
+}
+
+.container{
+  background-image: url(./assets/IMG/bg.png);
+  background-color:#232224;
+  background-size: 57%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  width: 100%;
+  height: 100vh;
+}
+
+
+
+.text-block {
+  display:flex;
+  margin-bottom:-620px;
+}
+
+* {
+  box-sizing: border-box;
+ 
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 45px;
+  text-align: left;
+  margin-top:-40%;
+  font-family:'MontH';
+  color:#F4F4F4;
+  
+}
+
+.flex-container :nth-child(1){
+	margin-right: 150px;
+  margin-left:200px;
+  margin-bottom:-10px;
+  flex: 50%;
+  font-size: 110px;
+
+
+}
+
+.flex-container :nth-child(2){
+	margin-left:450px;
+  flex: 50%;
+  margin-top:-25px;
+}
+
+.flex-container :nth-child(3){
+	margin-left:450px;
+  flex: 50%;
+  margin-top:-25px;
+  font-size: 55px;
+}
+.flex-container :nth-child(4){
+  margin-right: 150px;
+  margin-left:200px;
+  margin-bottom:-40px;
+  margin-top:-30px;
+  flex: 50%;
+  font-size: 110px;
+  
+  }
+.flex-container :nth-child(5){
+	margin-right: 150px;
+  margin-left:215px;
+  margin-bottom:-10px;
+  flex: 50%;
+  font-size: 55px;
+  
+}
+
+.flex-container :nth-child(6){
+  margin-right: 150px;
+  margin-left:340px;
+  margin-bottom:-25px;
+  flex: 50%;
+  font-size: 55px;
+  margin-top:-30px;
+}
+.flex-container :nth-child(7){
+	margin-right: 150px;
+  margin-left:260px;
+  margin-bottom:-10px;
+  flex: 50%;
+  font-size: 55px;
+}
+
+.flex-container :nth-child(8){
+	margin-left:370px;
+  flex: 50%;
+  margin-top:-112px;
+  font-size: 55px;
+}
+.flex-container :nth-child(9){
+  margin-left:370px;
+  flex: 50%;
+  margin-top:-15px;
+  font-family:'MontL';
+  font-size:35px;
+
+}
+
